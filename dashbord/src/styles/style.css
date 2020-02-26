@@ -1,0 +1,26 @@
+.flx-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    height: calc(10vh - 2em);
+    background-color: #2c7ccc;
+    padding: 2em 1em;
+    color: #fff;
+}
+
+.mg-s1{
+   margin: 0 1em;
+}
+
+.mg-r3{
+    margin-right: 3em;
+}
+
+.filter-section{
+    padding: .2em;
+    border: 1px solid #fff;
+    border-radius: 1em;
+}
