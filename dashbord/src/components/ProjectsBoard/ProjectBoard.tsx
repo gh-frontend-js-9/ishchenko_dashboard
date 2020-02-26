@@ -1,10 +1,14 @@
 import React from 'react';
 import NavHeader from "./NavHeader";
+import ProjectsContainer from "./ProjectsContainer";
 import 'normalize.css';
 
 const ProjectBoard = (): any => {
   return (
-      <NavHeader />
+      <div>
+        <NavHeader />
+        <ProjectsContainer />
+      </div>
   );
 }
 
