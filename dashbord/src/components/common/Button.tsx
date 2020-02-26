@@ -1,11 +1,11 @@
 import React from "react";
-import './../../styles/style.css';
+import '../../styles/style.css';
 
-class Button extends React.Component {
+class Button extends React.Component<any, any> {
     render() {
-        const text  = this.props.children;
+        let { text }  = this.props
         return (
-            <div>
+            <div className={'pd-s1'}>
                 <span>{ text }</span>
             </div>
         );
