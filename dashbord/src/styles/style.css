@@ -1,0 +1,49 @@
+.flx-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mg-s1{
+   margin: 0 1em;
+}
+
+.mg-r3{
+    margin-right: 3em;
+}
+
+.pd-s1{
+    padding: 0 1em;
+}
+
+.nav{
+    font-size: 1.2em;
+    background-color: #2c7ccc;
+    padding: 1em;
+    color: #fff;
+}
+
+.filter-section{
+    padding: .2em;
+    border: 1px solid #fff;
+    border-radius: 1em;
+}
+
+/*Project Bar styles*/
+
+.progress-bar {
+    position: relative;
+    height: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+.filler {
+    background: #2e50a5;
+    height: 100%;
+    border-radius: inherit;
+    transition: width .2s ease-in;
+}
+
+
