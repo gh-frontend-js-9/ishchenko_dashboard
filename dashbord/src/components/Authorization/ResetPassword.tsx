@@ -1,5 +1,7 @@
 import React from "react";
 import ResetUserPassword from "../../scripts/requests/resetUserPassword";
+import './../../styles/style.css'
+import 'normalize.css'
 
 
 class ResetPassword extends React.Component<any, any>{
@@ -35,30 +37,38 @@ class ResetPassword extends React.Component<any, any>{
 
     render(){
         return(
-            <div>
-                <input
-                    type="email"
-                    placeholder='Email'
-                    name='email'
-                    value={this.state.email}
-                    onChange={this.handleChange}
-                />
-                <input
-                    type="password"
-                    placeholder='Password'
-                    name='password'
-                    value={this.state.password}
-                    onChange={this.handleChange}
-                />
-                <input
-                    type="password"
-                    placeholder='Confirm password'
-                    name='confirmPassword'
-                    value={this.state.confirmPassword}
-                    onChange={this.handleChange}
-                />
-                <div>
-                    <button onClick={this.resetUserPassword}>
+            <div className={'form'}>
+                <div className={'form__container'}>
+                    <div className={'form__header'}>
+                        <span>Reset password</span>
+                    </div>
+                    <input
+                        className={'input-field input-field_focused'}
+                        type="email"
+                        placeholder='Email'
+                        name='email'
+                        value={this.state.email}
+                        onChange={this.handleChange}
+                    />
+                    <input
+                        className={'input-field input-field_focused'}
+                        type="password"
+                        placeholder='Password'
+                        name='password'
+                        value={this.state.password}
+                        onChange={this.handleChange}
+                    />
+                    <input
+                        className={'input-field input-field_focused'}
+                        type="password"
+                        placeholder='Confirm password'
+                        name='confirmPassword'
+                        value={this.state.confirmPassword}
+                        onChange={this.handleChange}
+                    />
+                    <button className={'button button_hovered'}
+                            onClick={this.resetUserPassword}
+                    >
                         Reset
                     </button>
                 </div>
