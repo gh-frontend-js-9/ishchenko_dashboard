@@ -1,3 +1,7 @@
+body{
+    font-family: Arial;
+}
+
 .flx-container{
     display: flex;
     justify-content: space-between;
@@ -47,3 +51,59 @@
 }
 
 
+/*authorization pages*/
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #252632;
+}
+
+.form__container{
+    background-color: #2f3242;
+    border-radius: .4em;
+}
+
+.form__header{
+    background-color: #333648;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-top-left-radius: .4em;
+    border-top-right-radius: .4em;
+}
+
+.input-field{
+    display: block;
+    padding: .5em 1.5em;
+    border: 2px solid #247ace;
+    background-color: #2f3242;
+    border-radius: 1.2em;
+    color: #fff;
+    margin:1em;
+    outline: none;
+}
+
+.input-field_focused:focus{
+    background-color: #333648;
+}
+
+.button{
+    border-radius: .2em;
+    margin: 1em auto;
+    display: block;
+    border: 0;
+    background-color: #247ace;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: .5em 1.2em;
+}
+
+.button_hovered:hover{
+    background-color: #252632;
+}
