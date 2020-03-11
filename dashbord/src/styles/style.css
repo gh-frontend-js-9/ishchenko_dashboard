@@ -1,12 +1,7 @@
 body{
     font-family: Arial;
 }
-
-.flx-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+/*
 
 .mg-s1{
    margin: 0 1em;
@@ -32,22 +27,21 @@ body{
     border: 1px solid #fff;
     border-radius: 1em;
 }
+*/
 
 /*Project Bar styles*/
 
 .progress-bar {
-    position: relative;
     height: 5px;
+    background-color: #6f6f6f;
     width: 100px;
     border-radius: 5px;
-    border: 1px solid #333;
 }
 
 .filler {
     background: #2e50a5;
     height: 100%;
     border-radius: inherit;
-    transition: width .2s ease-in;
 }
 
 
@@ -106,4 +100,41 @@ body{
 
 .button_hovered:hover{
     background-color: #252632;
+}
+
+/*Projects list*/
+
+.projects-container{
+    background-color: #252632;
+    padding: 2em;
+}
+
+.projects-container__panel{
+    display: flex;
+    justify-content: space-around;
+    color: #6f6f6f;
+}
+
+.project-bar{
+    background-color: #333648;
+    margin: 1em;
+    padding: 1em;
+}
+
+.flx-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flx-container__elem{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: .9em;
+}
+
+.name-block{
+    color: #6f6f6f;
+    line-height: 2;
 }
