@@ -8,7 +8,6 @@ async function getAllProjects(): Promise<any>{
             'x-access-token': null
         }
     })
-
 }
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ProjectBoard from "./components/ProjectsBoard/ProjectBoard";
+import ProjectsContainer from "./components/ProjectsBoard/ProjectsContainer";
 
-ReactDOM.render(<ProjectBoard />, document.getElementById('root'));
+ReactDOM.render(<ProjectsContainer />, document.getElementById('root'));
 

@@ -39,7 +39,7 @@ body{
 }
 
 .filler {
-    background: #2e50a5;
+    /*background: #2e50a5;*/
     height: 100%;
     border-radius: inherit;
 }
